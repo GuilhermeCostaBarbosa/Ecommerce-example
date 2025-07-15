@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 * {
@@ -606,11 +607,74 @@ footer a:hover {
     }
 
     #banner {
-        height: 25vh;
+        height: 30  vh;
     }
 
     #banner h2 {
         padding: 0px 0;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        background-position: top;
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+    }
+
+    #newsletter .form {
+        width: 70%;
+        padding-top: 4px;
+    }
+}
+
+@media (max-width:477px){
+    header {
+        padding: 10px 30px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .fe-box {
+        width: 115px;
+        margin: 0 0 15px 0;
+    }
+
+    #product .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40 vh;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
     }
 }
 /* end Features */
